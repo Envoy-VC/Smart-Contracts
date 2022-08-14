@@ -4,15 +4,15 @@ Ethereum wallets are applications that let you interact with your Ethereum accou
 
 ---
 
-The contract first includes the owner's address.
+The owner's address is listed first in the contract.
 
 ```solidity
 address payable public owner;
 ```
 
-The address is marked `payable` so that it can receive ether.
+The address has the designation `payable` so that ether can be sent to it.
 
-The owner variable is initialized within the `constructor` as the `msg.sender` i.e the deployer of the contract.
+The owner variable in the constructor is set to `msg.sender`, or the deployer of the contract, upon initialization.
 
 ```solidity
 constructor() {
