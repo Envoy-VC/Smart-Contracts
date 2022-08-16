@@ -1,3 +1,5 @@
+![Cover](https://res.cloudinary.com/practicaldev/image/fetch/s--XbHknY5M--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/6151ls8g0r8p42vp5p0a.png)
+
 ## What is a Merkle Tree?
 
 A "hash tree" or "Merkle tree" is a type of tree used in cryptography and computer science where each "leaf" (node) is labelled with the cryptographic hash of a data block and every other node (referred to as a "_branch_," "_inner node_," or "_inode_") is labelled with the cryptographic hash of the labels of its child nodes. A hash tree makes it possible to quickly and securely check the contents of a big data structure.
