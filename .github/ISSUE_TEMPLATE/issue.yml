@@ -1,0 +1,35 @@
+name: Add Smart Contract
+description: Add a descriptive tutorial on a smart contract to one of the three categories.
+title: "[Smart Contract]: <name>"
+labels: ["smart-contract"]
+assignees:
+  - Envoy-VC
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Contract Description
+      description: Tell us more about the contract.
+      placeholder: What does this contract do, how does it aid in problem-solving, and what are some examples of its applications?
+    validations:
+      required: true
+  - type: dropdown
+    id: contract-category
+    attributes:
+      label: Contract Category
+      description: How would you describe the complexity of the contract.
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+        - Expert
+    validations:
+      required: true
+  - type: checkboxes
+      id: duplicate-check
+      attributes:
+        label: Undertaking
+        description: By ticking this, you certify that you have already examined the issue in question, that it is not a duplicate, and that the ensuing smart contract is not present in the repository.
+        options:
+          - label: I concur that this smart contract is unique and not already available.
+            required: true
