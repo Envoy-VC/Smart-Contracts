@@ -2,7 +2,7 @@ name: Add contributors
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "20 20 * * *"
 jobs:
   add-contributors:
     runs-on: ubuntu-latest
@@ -13,8 +13,8 @@ jobs:
           CONTRIBUTOR: "## 🫡 Contributors"
           COLUMN_PER_ROW: "6"
           ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          IMG_WIDTH: "75"
-          FONT_SIZE: "12"
-          PATH: "/readme.md"
+          IMG_WIDTH: "100"
+          FONT_SIZE: "14"
+          PATH: "./readme.md"
           COMMIT_MESSAGE: "docs(README): update contributors"
-          AVATAR_SHAPE: "round"
+          AVATAR_SHAPE: "square"
