@@ -25,6 +25,21 @@ body:
         - Expert
     validations:
       required: true
+  - type: dropdown
+    id: assign
+    attributes:
+      label: Would you like to work on this issue?
+      options:
+        - Yes
+        - No
+    validations:
+      required: false
+  - type: input
+    id: open-source
+    attributes:
+      label: Are you involved in any open source initiatives.
+      description: For instance, Hacktoberfest, Hacksquad, GSoc, GSoD, and so forth
+      placeholder: Hacktoberfest 2022, Hacksquad.
   - type: checkboxes
     attributes:
       label: Undertaking
