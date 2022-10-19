@@ -102,6 +102,18 @@ Found a security issue with our smart contracts? raise an [issue](https://github
 
 ## 🫡 Contributors
 
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Envoy-VC>
+            <img src=https://avatars.githubusercontent.com/u/65389981?v=4 width="100;"  alt=Vedant Chainani/>
+            <br />
+            <sub style="font-size:14px"><b>Vedant Chainani</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
+
 ---
 
 <p align="center">
