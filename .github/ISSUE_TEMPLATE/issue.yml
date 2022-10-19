@@ -26,9 +26,9 @@ body:
     validations:
       required: true
   - type: checkboxes
-      attributes:
-        label: Undertaking
-        description: By ticking this, you certify that you have already examined the issue in question, that it is not a duplicate, and that the ensuing smart contract is not present in the repository.
-        options:
-          - label: I concur that this smart contract is unique and not already available.
-            required: true
+    attributes:
+      label: Undertaking
+      description: By ticking this, you certify that you have already examined the issue in question, that it is not a duplicate, and that the ensuing smart contract is not present in the repository.
+      options:
+        - label: I concur that this smart contract is unique and not already available.
+          required: true
